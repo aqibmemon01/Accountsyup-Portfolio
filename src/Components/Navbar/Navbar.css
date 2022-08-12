@@ -1,0 +1,131 @@
+.navbar-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    display: block;
+    padding: 0 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 14px 14px 40px 0 rgb(118 126 173 / 8%);
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-l {
+    display: flex;
+    flex: 1.8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icon {
+    width: 20%;
+}
+
+.navbar-icon>a>img {
+    width: 100%;
+}
+
+.navbar-items {
+    width: 80%;
+}
+
+.navbar-items>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items>ul>li,
+.navbar-items>ul>li>a {
+    color: #201b3d;
+    font-size: 14px;
+    transition: 350ms;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-items>ul>li:hover,
+.navbar-items>ul>li>a:hover,
+.navbar-items>ul>li:nth-child(4):hover {
+    color: #7540ee;
+}
+
+.navbar-items>ul>li:nth-child(1) {
+    border-right: 1px solid gray;
+    padding: 0.2rem 1.5rem;
+    position: relative;
+}
+
+.navbar-items>ul>li>:nth-child(4)> {
+    color: #e51260;
+}
+
+.navbar-items>ul>li:nth-child(1):hover .dropdown {
+    display: block;
+
+}
+
+.navbar-r {
+    flex: 2;
+    width: 100%
+}
+
+.navbar-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-btn {
+    border: none;
+    background-color: #e51260;
+    width: 130px;
+    height: 50px;
+    color: white;
+    align-items: center;
+    border: 2px #5d3eff;
+    border-radius: 50px;
+    transition: 350ms;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    height: 10vh;
+    background-color: #201b3d;
+    position: absolute;
+    z-index: 99;
+    display: block;
+    display: flex;
+    overflow: hidden;
+    min-width: 590px;
+    padding: 0;
+    flex-direction: row;
+    box-shadow: 14px 14px 40px 5px rgb(118 126 173 / 10%);
+    margin-top: 40px;
+    margin-left: -120px;
+    display: none;
+}

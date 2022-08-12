@@ -1,0 +1,117 @@
+.footer-wrapper{
+    background-color: #fafbfc;
+    padding: 50px 5% 30px 5%;
+    min-height: 400px;
+}
+.footer-container{
+}
+
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2.5rem; 
+    border-bottom: 1px solid rgba(155,158,184,.26);
+    padding-bottom: 20px;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.footer-btn>h1{
+    display: inline-block;
+    margin-right: 15px;
+    color: #0a1f44;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-btn>button{
+    border: none;
+    background-color: #e51260;
+    width: 150px;
+    height: 45px;
+    color: white;
+    align-items: center;
+    border: 2px #5d3eff;
+    border-radius: 50px;
+    transition: 350ms;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2.5rem; 
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 60px;
+
+}
+.footer-items-title>h2{
+    display: inline-block;
+    margin-bottom: 8px;
+    padding-top: 12px;
+    color: #0a1f44;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-items-details{
+}
+.footer-items-details>ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-items-details>ul>li{
+    margin-bottom: 10px;
+    transition: 250ms;
+    color: #8a94a6;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-main-l{
+    display: flex;
+}
+.footer-main-r{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem; 
+}
+.ft-head>h1{
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #0a1f44;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-img{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    border: 1px solid #ebecf0;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}

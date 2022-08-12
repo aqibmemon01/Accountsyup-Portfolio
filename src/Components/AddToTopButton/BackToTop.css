@@ -1,0 +1,21 @@
+.gototop{
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* border-top: 1px solid #3d1f81;
+    border-left: 1px solid #3d1f81;
+    border-right: 1px solid #3d1f81; */
+}
+.gototop>img{
+    width: 90%;
+
+}
+.downicon{
+    margin-top: -30px
+}

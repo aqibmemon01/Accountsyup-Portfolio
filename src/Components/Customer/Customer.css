@@ -1,0 +1,117 @@
+.customer {
+    width: 90%;
+    padding: 40px 5% 20px;
+    margin-top: 2%;
+}
+
+.customer-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.customer-heading>h3 {
+    margin: 0;
+    color: #e51260;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.customer-heading>h1 {
+    margin: 0 auto 25px;
+    color: #0a1f44;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+.review-boxs{
+    display: flex;
+    height: fit-content;
+}
+.review {
+    margin: 1rem 0rem;
+    width: 33%;
+    max-height: 320px;
+    min-height: 320px;
+    padding: 24px;
+    border: 1px solid #ebecf0;
+}
+
+.review-icon {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.review-icon>h1 {
+    font-size: 60px;
+    line-height: 37px;
+    font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+    margin: 1rem 0rem;
+    font-weight: 700;    
+}
+
+.review-decr {
+    width: 100%;
+}
+
+.review-decr>h4 {
+    color: #4e5d78;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 400;
+    margin: 1rem 0rem;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.review-box{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+.review-img{
+    width: 60px;
+    height: 60px;
+}
+.review-img>img{
+    width: 100%;
+    height: 100%;
+    background-size: 70px;
+    background-position: 50% 0;
+    border-radius: 100px;
+}
+.review-title{
+    margin: 0;
+    padding: 0rem 0.5rem; 
+}
+.review-title>h2{
+    margin: 0;
+    color: #0a1f44;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 4px
+}
+.review-title>h3{
+    margin: 0;
+    color: #4e5d78;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
