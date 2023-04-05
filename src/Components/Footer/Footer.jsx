@@ -13,7 +13,8 @@ const Footer = () => {
                     <div className="footer-header">
                         <div className="footer-header-l">
                             <div className="footer-logo">
-                                <img src={Logo} alt="" width={100} />
+                                <h2>Accountsyup.com</h2>
+                                {/* <img src={Logo} alt="" width={100} /> */}
                             </div>
                         </div>
                         <div className="footer-header-r">
@@ -44,7 +45,7 @@ const Footer = () => {
 
                             <div className="footer-items">
                                 <div className="footer-items-title">
-                                    <h2>Explore LedgerMax</h2>
+                                    <h2>Explore Accountsyup</h2>
                                 </div>
                                 <div className="footer-items-details">
                                     <ul>

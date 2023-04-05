@@ -11,13 +11,16 @@ const Navbar = () => {
 
                     <div className="navbar-l">
                         <div className="navbar-icon">
-                            <Link to='/'>
-                            <img src={MainLogo} alt="" />
-                            </Link>
+                            {/* <Link to='/'> */}
+                                <div className='myLogo'>AccountsYup.com</div>
+                                {/* <button className="nav-btn">See Demo</button> */}
+                            {/* <img src={MainLogo} alt="" /> */}
+                            {/* </Link> */}
                         </div>
                         <div className="navbar-items">
                             <ul>
-                                <li>
+                                <li></li>
+                                {/* <li>
                                     <span>Features</span>
                                     <div className="dropdown">
                                         <div className="dropdown-l">
@@ -38,17 +41,16 @@ const Navbar = () => {
                                         </div>
                                         <div className="dropdown-r"></div>
                                     </div>
-
-                                </li>
+                                </li> */}
                                 <li><Link to='/pricing'>Pricing</Link></li>
                                 <li><Link to='/contact'>Contact</Link></li>
-                                <li><span><Link to='/about' style={{textDecoration:'none', color:'#e51260   '}}>About Us</Link></span></li>
+                                <li><Link to='/contact'>About Us</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="navbar-r">
                         <div className="navbar-btn">
-                            <button className="nav-btn">See Demo</button>
+                            <button className="nav-btn">Live Demo</button>
                         </div>
                     </div>
                 </div>

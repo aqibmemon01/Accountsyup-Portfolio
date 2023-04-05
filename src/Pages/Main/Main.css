@@ -1,12 +1,33 @@
 .main-box {
     height: 115vh;
-    background-image: linear-gradient(5deg, #41c9f3, #fff);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* background-image: linear-gradient(5deg, #41c9f3, #fff); */
+    background-image: url("../../img/bg.jpg");
+    background-color: #002046;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* align-items: center; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    padding-top: 200px;
 }
-
+.main-box .main-box-cont{
+    display: flex;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-box .showcaseCont{
+    flex: 1;
+    padding-top: 100px;
+}
+.main-box .contentBox{
+    flex: 1;
+}
+.main-box .showcaseCont img{
+    width: 95%;
+}
 .main-head {
     display: flex;
     min-height: 30px;
@@ -19,6 +40,7 @@
     margin-right: auto;
     margin-left: auto;
 }
+
 
 .main-head>:nth-child(1) {
     width: 25px;
@@ -43,18 +65,18 @@
     max-width: 610px;
     margin-top: 15px;
     margin-bottom: 0px;
-    color: #3d1f81;
+    color: white;
     font-size: 44px;
     line-height: 51px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .main-desc {
     max-width: 560px;
-    color: #000;
+    color: white;
     font-size: 15px;
     line-height: 25px;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 300;
     font-weight: 400;
 }
@@ -76,15 +98,16 @@
 .main-btn>:nth-child(1) {
     padding: 0.8rem 3rem;
     border: 1px #6165ff;
-    border-radius: 100px;
+    border-radius: 8px;
     background-color: #e51260;
     transition: 250ms ease-in;
     color: #fff;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 700;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .A11-wrapper {
@@ -383,8 +406,19 @@
     border-radius: 8px;
     margin-right: 10px;
 }
-
-
+.myLogo{
+    font-size: 22px;
+    color: #417788;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.featureList{
+    color: white;
+    list-style:square;
+    font-weight: 600;
+    font-size: 22px;
+}
 
 
 

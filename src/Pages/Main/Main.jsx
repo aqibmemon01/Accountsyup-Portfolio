@@ -11,6 +11,7 @@ import A3 from '../../img/A3.png';
 import A4 from '../../img/A4.png';
 import A5 from '../../img/A5.png';
 import A6 from '../../img/A6.png';
+import showcase from '../../img/showcase.webp';
 import Check from '../../img/check.svg';
 import Google from '../../img/googlePlay.jpg';
 import App from '../../img/AppStore.jpg';
@@ -32,29 +33,43 @@ const Main = () => {
             }
         }
     }
-    
+
     return (
         <>
             <Navbar />
             <BackToTopButton />
 
             <div className="main-box">
-                <div className="main-head">
-                    <span>V</span>
-                    <span>Aap ke Hisab Ka Software</span>
-                </div>
-                <div className="main-heading">
-                    <h1>Accounting Software for Pakistani Small Businesses</h1>
-                </div>
-                <div className="main-desc">
-                    <h3>100+. Features and reports created for Pakistani businesses.
-                        Free premium support and training </h3>
-                </div>
-                <div className="main-img">
-                    <img src={MAIN} alt="" />
-                </div>
-                <div className="main-btn">
-                    <button >Get Started</button>
+                <div className="main-box-cont" >
+                    <div className='contentBox' >
+                        <div className="main-heading">
+                            <h1>Pakistan's #1 Cloud Based Accounting Software </h1>
+                        </div>
+                        {/* <div className="main-desc">
+                        <h3>100+. Features and reports created for Pakistani businesses.
+                            Free premium support and training </h3>
+                    </div> */}
+                        <div>
+                            <ul className='featureList'>
+                                <li>Customizable as per Requirement.</li>
+                                <li>100% Cloud based.</li>
+                                <li>Easy to use. No Accounting knowledge is required.</li>
+                                <li>Separate Server for each Business.</li>
+                                <li>Separate Database & Private Database Facility.</li>
+                                <li>Free Training & 24/7 Support.</li>
+                            </ul>
+                        </div>
+                        <div className="main-btn">
+                            <button >Free Registration</button>
+                        </div>
+                    </div>
+                    <div className='showcaseCont' >
+                        <div>
+                            <img
+                                src={showcase}
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -222,19 +237,19 @@ const Main = () => {
                 </motion.div>
             </div>
 
-            <Customer />
+            {/* <Customer /> */}
 
             <div className="Businesses">
-                <div className="buis-header">
+                {/* <div className="buis-header">
                     <h1>Trusted by more than 500 Businesses all over Pakistan</h1>
-                </div>
+                </div> */}
                 <div className="buis-main">
                     <h1>Schedule a demo with today and see how it works</h1>
                     <button className='buis-btn'>SEE FULL PREVIEW</button>
                 </div>
             </div>
 
-            <div className="coming">
+            {/* <div className="coming">
                 <div className="coming-box">
 
                     <div className="coming-box-title">
@@ -257,10 +272,10 @@ const Main = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
 
-            <Feature />
+            {/* <Feature /> */}
             <Footer />
         </>
     )
